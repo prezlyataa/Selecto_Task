@@ -1,0 +1,56 @@
+body {
+    padding-top: 20px;
+    font-family: "Myriad Pro", sans-serif;
+    text-align: center;
+    background: #fff;
+    color: #333;
+    padding-bottom: 40px;
+}
+
+ul li {
+    list-style: none;
+}
+
+.target{
+    color: #333;
+    text-align: left;
+    font-size: 24px;
+    min-width: 300px;
+    min-height: 40px;
+    width: 600px;
+    display: inline-block;
+    position: relative;
+    background: #9e9e9e;
+    padding:20px 20px;
+    border-radius: 5px;
+    font-family: "Cutive Mono", monospace;
+}
+
+.point {
+    padding-top: 25px;
+}
+
+.wrong {
+    background: #ff0000;
+    color:#fff;
+}
+
+textarea {
+    color: #fff;
+    width: 60%;
+    margin: 1em auto;
+    display: none;
+    position: relative;
+}
+
+.your-attempt {
+    background: #3e3e3e;
+    color: #fff;
+    padding: 10px;
+    min-height: 100px;
+    max-width: 600px;
+    margin: 2em auto;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: "Cutive Mono", monospace;
+}
